@@ -1,0 +1,21 @@
+@import '../../styles/app';
+
+.pod-state-container {
+  margin-top: 8px;
+
+  .pod {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: $success;
+    margin: 2px;
+  }
+
+  .pod.warning {
+    background-color: $warning;
+  }
+
+  .pod.error {
+    background-color: $red;
+  }
+}
